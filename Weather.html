@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./Weather.css">
+</head>
+<body>
+    <div class = "wrapper">
+        <h1 >WEATHER APP</h1><br>
+        <div class = "search">
+            <input type = "text" placeholder="Enter city name" spellcheck="false" id = "cityName"><br>
+            <button onclick="getReport()" class = "show">Search</button><br><br>
+        </div>
+        <p> City Name : <span id ="wName"></span></p>
+            <p>Temparature : <span id = "wTemp"> </span>&deg; C </p>
+            <p>Wind speed : <span id = "wWindSpeed"></span>mph</p>
+            <p>Humidity : <span id = "myHumidity"></span>%</p>
+    </div>
+    <script src = "./Weather.js"></script>
+</body>
+</html>

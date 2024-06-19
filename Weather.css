@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: floralwhite;
+    margin-top: 50px;
+}
+
+.wrapper{
+    width: 800px;
+    height: 500px;
+    padding: 20px 20px 20px 20px;
+    border-style: solid;
+    color: aliceblue;
+    background-color: rgb(130, 197, 244);
+    border-color: rgb(240, 233, 233);
+    border-radius: 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+#cityName{
+    text-align: center;
+    font-size: large;
+    margin-bottom: 40px;
+    border-color: rgb(232, 245, 245);
+    border-radius: 0;
+    width: 460px;
+    height: 50px;
+}
+
+.show{
+    width: 90px;
+    height: 25px;
+    box-shadow: 0px 8px 15px rgba(247, 238, 238, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    border-color: rgb(154, 199, 244);
+    background-color: rgb(220, 234, 247);
+}
